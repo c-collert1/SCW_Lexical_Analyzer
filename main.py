@@ -22,12 +22,12 @@ while line:
     line = file.readline()
 
     # Runs every time a line is read
-    token_count += keywords.tokenize_keywords(line)
-    token_count += operators.tokenize_operators(line)
-    token_count += identifiers.tokenize_identifiers(line)
-    token_count += numbers.tokenize_numbers(line)
+    #token_count += keywords.tokenize_keywords(line)
+   # token_count += operators.tokenize_operators(line)
+   # token_count += identifiers.tokenize_identifiers(line)
+    #token_count += numbers.tokenize_numbers(line)
     token_count += symbols.tokenize_symbols(line)
-    token_count += comments.tokenize_comments(line)
+    #token_count += comments.tokenize_comments(line)
 
 # Read file character by character
 #while 1:
