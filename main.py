@@ -27,7 +27,7 @@ while line:
     #token_count += identifiers.tokenize_identifiers(line)
     #token_count += numbers.tokenize_numbers(line)
     token_count += symbols.tokenize_symbols(line)
-    token_count += comments.tokenize_comments(line)
+    #token_count += comments.tokenize_comments(line)
 
 # Read file character by character
 #while 1:
