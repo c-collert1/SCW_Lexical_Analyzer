@@ -5,7 +5,7 @@ symbols = ["(", ")", "{", "}", ";"]
 def tokenize_symbols(input): 
     token_count = 0
     # Adds an or to each of the symbols, that way when searching it finds the symbols.
-    # Also makes it so that the special characters are ignoresd.
+    # Also makes it so that the regex meanings are ignoresd.
     search = "|".join(re.escape(i) for i in symbols)
 
     tokens = re.findall(search, input)

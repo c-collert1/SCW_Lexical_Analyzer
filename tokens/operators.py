@@ -6,7 +6,7 @@ def tokenize_operators(input):
     token_count = 0
 
     # Adds an or to each of the operators, that way when searching it finds the operators.
-    # Also makes it so that the special characters are ignoresd.
+    # Also makes it so that the regex meanings are ignoresd.
     search = "|".join(re.escape(i) for i in operators) 
 
     # Uses the search variable
