@@ -12,7 +12,7 @@ print("Enter test file number (1-5):")
 test_file_num = input()
 
 # Open selected test file
-file_name = "tests/test" + test_file_num + ".source"
+file_name = "tests/test" + test_file_num + ".scw"
 file = open(file_name, "r")
 
 keyword_count = 0
