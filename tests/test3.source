@@ -1,0 +1,10 @@
+// Boundary Test
+FLOAT a = 30.2934;
+INTEGER b = 5;
+
+WHILE (a < 30 ) { a = a+1-b; IF(a == b) {a + b} IF (a< b || !(a !=b)) {GET x }} 
+
+IF (a == b) { PRINT b;}
+ELSE { a / b; //
+} // test
+

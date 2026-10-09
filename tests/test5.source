@@ -1,0 +1,10 @@
+// Stress Test
+INTEGER x = (((((((1+2)))))));
+INTEGER y = 00000000000000000030;
+IF (x > 0) {
+    GET X WHILE (y = 30) {
+        x + 10;
+        y-1;
+    } ELSE{ y = y +y;}
+}
+

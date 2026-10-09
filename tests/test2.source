@@ -1,0 +1,25 @@
+// Covers all token types
+INTEGER x = 0;
+	FLOAT y = 0.0;
+	GET x;
+	GET y;
+IF (x == 10) {
+    PRINT x;
+    x = x + 1;
+    x = x / 5;
+} ELSE {
+    y = 5.5;
+    y = 5.5 * 10;
+}
+WHILE (y < 20 || x != 30) {
+    y = y - 1;
+}
+
+INTEGER count = 20;
+IF (!(count >= 30) & x <= 30) {
+    x = x + x;
+}
+
+PRINT x;
+
+// And here is an extra comment as another test.

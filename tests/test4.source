@@ -1,0 +1,16 @@
+// Error Test
+
+INTEGER y = hello23;
+INTEGER x = 1
+FLOAT z = 67.34.2
+
+IF (22 >= hello && x != 1 ) {
+    x ] 2;
+}
+IF ( x | 3) { 
+    PRINT x
+}
+
+FLOAT a = 32 ^ 29;
+
+FLOAT _yippiedoodah = @ a;
