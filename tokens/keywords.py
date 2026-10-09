@@ -7,7 +7,12 @@ def tokenize_keywords(input):
     # i.e GET was getting matched in TARGET during testing
     tokenPattern = re.compile(r'\b(?:IF|ELSE|WHILE|PRINT|INTEGER|FLOAT|GET)\b')
 
-    identifiers = tokenPattern.findall(input)
-    token_count += len(identifiers)
+    keywords = tokenPattern.findall(input)
+    token_count += len(keywords)
+
+    for t in keywords: 
+                print("Token: " + t + ", Type: Keyword")
+    if(len(keywords) > 0):
+        print(input)
 
     return token_count
