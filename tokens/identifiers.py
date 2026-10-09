@@ -8,5 +8,7 @@ def tokenize_identifiers(input):
 
     identifiers = tokenPattern.findall(input)
     token_count += len(identifiers)
+    for t in identifiers: 
+            print("Token: " + t + ", Type: Identifier")
 
     return token_count

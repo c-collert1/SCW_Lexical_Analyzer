@@ -19,7 +19,6 @@ token_count = 0
 line = file.readline()
 while line:
     print(line)
-    line = file.readline()
 
     # Runs every time a line is read
     token_count += keywords.tokenize_keywords(line)
@@ -28,6 +27,9 @@ while line:
     token_count += identifiers.tokenize_identifiers(line)
     # token_count += numbers.tokenize_numbers(line)
     token_count += comments.tokenize_comments(line)
+    
+    line = file.readline()
+
 
 # Read file character by character
 #while 1:
