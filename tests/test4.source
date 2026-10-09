@@ -1,6 +1,6 @@
 // Error Test
 
-INTEGER y = hello23;
+INTEGER y = 23hello23;
 INTEGER x = 1
 FLOAT z = 67.34.2
 

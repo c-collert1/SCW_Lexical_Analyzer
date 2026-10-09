@@ -10,3 +10,6 @@ def tokenize_comments(input):
     
     # Comments are ignored for end token count
     return 0
+
+def remove_comments(input):
+    return re.sub(r"//.*", "", input)
